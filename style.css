@@ -1,0 +1,59 @@
+.para {
+    color: red;
+}
+.condown {
+    background-color: black;
+}
+.copy {
+    color: white;
+    text-align: center;
+}
+.menud {
+    text-align: center;
+}
+
+hr {
+    border: 5px solid;
+}
+#blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.blog1 {
+    transition: all 0.5s;
+    border: 2px solid blue;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    box-shadow: 5px 10px 20px white;
+}
+.blog1:hover {
+    opacity: 80%;
+    transform: scale(1.075);
+    -webkit-transform: scale(1.075);
+    -moz-transform: scale(1.075);
+    -ms-transform: scale(1.075);
+    -o-transform: scale(1.075);
+}
+.blog1, img {
+    text-align: center;
+  
+}
+#blogs img {
+    width: 80px;
+    margin: 10px;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+}
